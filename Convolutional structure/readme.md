@@ -9,3 +9,4 @@
 空洞卷积的两种理解(stride=1,padding:0)：
 * 将卷积核扩展：如卷积核为3*3但将其变为5*5的卷积核并在每行每列中加0.
 * 在特征图上每隔一行或一列取数与3*3卷积核进行卷积。
+* ![空洞卷积](https://github.com/ly-gump/CNN/tree/main/figures/0conv.gif)
